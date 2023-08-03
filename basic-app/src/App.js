@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Component from './Component';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Component/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <p>This is the second component: <Component/> that is a component^^^</p>
+
       </header>
     </div>
   );
